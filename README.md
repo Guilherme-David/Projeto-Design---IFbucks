@@ -1,5 +1,7 @@
 # Projeto-Design---IFbucks
 - Baseado no site We Coffee -> https://wecoffee.com.br/
+# Esquema de Cores
+- #ad987a -> Fonte 1
 # Navbar code - Color for Home
 - .navbar {
     height: 120px;
