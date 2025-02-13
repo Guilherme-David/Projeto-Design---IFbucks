@@ -7,5 +7,5 @@
     background-color: whitesmoke;
 }****
 # FONTE USADA
-- HTML -> HEAD: link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'
+- HTML -> HEAD: link <href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 - CSS: font-family: 'Montserrat';font-size: 22px;
