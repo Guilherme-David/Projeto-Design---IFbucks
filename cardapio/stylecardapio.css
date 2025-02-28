@@ -1,0 +1,107 @@
+* {
+    font-family: 'Montserrat';font-size: 22px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #baa88d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+main button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* Largura ajustada */
+    height: 60px; /* Altura ajustada */
+    padding: 0;
+    background: transparent;
+    border: 1px solid white; /* Borda branca */
+    border-radius: 50px; /* Borda arredondada */
+    cursor: pointer;
+}
+
+
+.button-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 100%;
+    border-left: 1px solid white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+}
+
+/* Cor do ícone (seta) */
+.button-icon svg {
+    fill: white;
+}
+.button-text:hover {
+    color: #baa88d;
+    background-color: white;
+}
+
+.button-icon:hover {
+    background-color: white;
+}
+
+.button-icon:hover svg {
+    fill: #baa88d;
+}
+
+.places {
+    display: none;
+    background-color: #baa88d;
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.box-places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.box-places a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.box-places a:hover {
+    color: rgba(255, 255, 255, 0.411);
+}
