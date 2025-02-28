@@ -167,17 +167,27 @@ footer {
         align-items: center;
     }
 
-    .types {
-        overflow-x: auto;
-        white-space: nowrap; /* Impede quebra de linha */
-        padding: 0px 100px; /* Garante espaçamento para evitar corte */
+    .slide {
+        max-height: 300px;
     }
 
-    .types button {
-        min-width: 120px;
-        flex-shrink: 0;
-    }   
+    .types {
+        overflow-x: auto;
+        position: relative;
+    }
 
+    .type-buttons {
+        display: flex;
+        gap: 15px;
+        position: absolute;
+        left: 5%;
+    }
+
+    .type-buttons button {
+        font-size: 16px;
+        width: auto;
+        max-width: auto;
+    }
     .product {
         flex-direction: column;
         text-align: center;
